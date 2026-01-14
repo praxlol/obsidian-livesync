@@ -4,8 +4,8 @@ services:
     container_name: couchdb-for-ols
     user: 5984:5984
     environment:
-      - COUCHDB_USER=<INSERT USERNAME HERE>  #Please change as you like.
-      - COUCHDB_PASSWORD=<INSERT PASSWORD HERE> #Please change as you like.
+      - COUCHDB_USER=praxis  #Please change as you like.
+      - COUCHDB_PASSWORD=pascale #Please change as you like.
     volumes:
       - ./couchdb-data:/opt/couchdb/data
       - ./couchdb-etc:/opt/couchdb/etc/local.d
