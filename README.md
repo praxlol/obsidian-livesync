@@ -38,6 +38,6 @@ curl -s https://raw.githubusercontent.com/vrtmrz/obsidian-livesync/main/utils/co
 Example on localhost with user: praxis and pass: pascale for example
 
 ```
-curl -s https://raw.githubusercontent.com/vrtmrz/obsidian-livesync/main/utils/couchdb/couchdb-init.sh | hostname=http://localhost:5984 username=pascale password=pascale bash
+curl -s https://raw.githubusercontent.com/vrtmrz/obsidian-livesync/main/utils/couchdb/couchdb-init.sh | hostname=http://localhost:5984 username=praxis password=pascale bash
 ```
 
