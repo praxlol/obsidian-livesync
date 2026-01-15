@@ -8,6 +8,7 @@ Based off of: https://github.com/vrtmrz/obsidian-livesync
 
 
 `mkdir -p couchdb-data \
+
 mkdir -p couchdb-etc`
 
 ## Step 2
