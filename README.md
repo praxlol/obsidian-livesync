@@ -16,7 +16,8 @@ mkdir -p couchdb-etc
 
 
 Found [here](https://github.com/vrtmrz/obsidian-livesync/blob/main/docs/setup_own_server.md#b-using-docker-compose) under the docker compose section.
-run the usual `docker compose up -d`
+
+Run the usual `docker compose up -d`
 
 If your container threw an error or exited unexpectedly, please check the permission of couchdb-data, and couchdb-etc.
 Once CouchDB starts, these directories will be owned by uid:5984. Please chown it for that uid again.
