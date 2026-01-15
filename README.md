@@ -21,6 +21,10 @@ Run the usual `docker compose up -d`
 
 If your container threw an error or exited unexpectedly, please check the permission of couchdb-data, and couchdb-etc.
 Once CouchDB starts, these directories will be owned by uid:5984. Please chown it for that uid again.
+```
+sudo chown -R 5984 couchdb-data
+sudo chown -R 5984 couchdb-etc
+```
 
 ## Step 3
 #### Initialise couchdb
