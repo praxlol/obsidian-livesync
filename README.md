@@ -40,4 +40,10 @@ Example on localhost with user: praxis and pass: pascale for example
 ```
 curl -s https://raw.githubusercontent.com/vrtmrz/obsidian-livesync/main/utils/couchdb/couchdb-init.sh | hostname=http://localhost:5984 username=praxis password=pascale bash
 ```
+## Step 4
+#### Expose service
 
+> You can skip this instruction if you using only in intranet and only with desktop devices.
+> For mobile devices, Obsidian requires a valid SSL certificate. Usually, it needs exposing the internet.
+
+Lets try Caddy?
