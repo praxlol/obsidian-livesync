@@ -7,9 +7,8 @@ Based off of: https://github.com/vrtmrz/obsidian-livesync
 #### Creating the save data & configuration directories.
 
 
-mkdir -p couchdb-data
-
-mkdir -p couchdb-etc
+`mkdir -p couchdb-data \
+mkdir -p couchdb-etc`
 
 ## Step 2
 #### Create the docker compose file
