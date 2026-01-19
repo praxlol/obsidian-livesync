@@ -12,3 +12,9 @@ services:
     ports:
       - 5984:5984
     restart: unless-stopped
+    networks:
+      - caddy
+
+networks:
+  caddy:
+    external: true
