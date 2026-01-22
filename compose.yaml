@@ -15,7 +15,7 @@ services:
     networks:
       - caddy
     labels:
-      caddy: obs-livesync.praxplace.com
+      caddy: obs-livesync.loc.praxplace.com
       caddy.reverse_proxy: "{{upstreams 5984}}"
 
       
